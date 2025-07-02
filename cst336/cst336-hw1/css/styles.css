@@ -63,10 +63,10 @@ figure {
     border: 2px solid rgb(128, 255, 0);
 }
 
-em {
+figcaption {
     font-style: italic;
     color:yellow;
-    padding-bottom: 2px;
+    padding-bottom: 2em;
 }
 
 img {
