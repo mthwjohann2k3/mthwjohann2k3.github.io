@@ -66,7 +66,8 @@ figure {
 figcaption {
     font-style: italic;
     color:yellow;
-    padding-bottom: 2em;
+    padding-bottom: 2px;
+    text-shadow: 0 0 5px black;
 }
 
 img {
