@@ -60,7 +60,6 @@ a:active {
 figure {
     justify-content: center;
     text-align: center;
-    border: 2px solid rgb(128, 255, 0);
 }
 
 figcaption {
