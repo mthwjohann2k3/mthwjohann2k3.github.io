@@ -1,0 +1,136 @@
+/* ----- STATIC WEBSITE STYLES ----- */
+body {
+    background-color: rgb(255, 150, 46);
+    margin: 0;
+    font-size: 20px;
+    font-family: "B612 Mono", monospace; /* ----- NEW CSS ----- */
+    color: black;
+}
+
+header, h1 {
+    text-align: center;
+    margin: 0;
+    background-color: rgb(128, 255, 0);
+    color: black;
+    font-size: 70px;
+    border: 3px solid black;
+    padding: 5px;
+}
+
+hr {
+    border: 2px dotted white;
+}
+
+/* ----- NAVIGATION BAR ----- */
+nav {
+    text-align: center;
+}
+
+.navButton {
+    display: inline-block;
+    background-color: rgb(128, 255, 0);
+    border: 3px solid rgb(64, 128, 0);
+    color: black;
+    font-size: 20px;
+    padding: 10px;
+    margin: 0;
+    font-family: "B612 Mono", monospace;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.currentNavButton {
+    display: inline-block;
+    background-color: rgb(64, 128, 0);
+    border: 3px solid rgb(128, 255, 0);
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+    margin: 0;
+    font-family: "B612 Mono", monospace;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a:active {
+    color: red;
+}
+
+/* ----- MAIN CONTENT ----- */
+figure {
+    justify-content: center;
+    text-align: center;
+    border: 2px solid rgb(128, 255, 0);
+}
+
+figcaption {
+    font-style: italic;
+    color:yellow;
+    padding-bottom: 2px;
+}
+
+img {
+    border: 2px solid rgb(128, 255, 0);
+    object-fit: cover;
+} 
+
+p {
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    text-indent: 5%;
+    font-weight: bold;
+}
+
+#indexFig, #nonlinearFig {
+    float: right; /* ----- NEW CSS ----- */
+}
+
+#staticFig, #dynamicFig {
+    float: left;
+}
+
+#indexPic {
+    height: 350px;
+}
+
+#staticPic {
+    height: 250px;
+}
+
+#dynamicPic {
+    height: 300px;
+}
+
+#nonlinearPic {
+    background-color: white;
+    height: 300px;
+}
+
+/* ----- NEW HTML/CSS ----- */
+strong {
+    color:rgb(128, 255, 0);
+}
+
+/* ----- FOOTER ----- */
+footer {
+    background-color: rgb(0, 0, 128);
+    justify-content: center;
+    text-align: center;
+    color:yellow;
+    font-size: small;
+    padding-top: 2.5%;
+}
+
+#logo {
+    width: 10%;
+    height:auto;
+}
+
+.sourceDiv {
+    font-weight: bold;
+    text-decoration:underline;
+}
+
+.hyperlink {
+    color: white;
+}
