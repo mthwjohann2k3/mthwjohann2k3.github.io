@@ -134,3 +134,7 @@ footer {
 .hyperlink {
     color: white;
 }
+
+cite {
+    font-style: regular;
+}
